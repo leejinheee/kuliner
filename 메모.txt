@@ -1,0 +1,28 @@
+ <div class="main_txt"><!--display:table-->
+                    <div class="txt_wrap"><!--display:table-cell-->
+                        <h2>Premium food at affordable price</h2>
+                        <p>A truly unique Danish food experience, you can get at lunch time in Kyoto</p>
+                        <ul>
+                            <li><a href="#">Learn More</a></li>
+                            <li><a href="#">Get the App</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+
+
+/*내가한것*/
+#header .main .dark .main_txt{ width: 1160px; padding: 0 10px; display: table; margin: 0 auto;text-align: center; height: 560px;}
+#header .main .dark .main_txt .txt_wrap{display: table-cell; vertical-align: middle;}
+
+#header .main .dark .main_txt .txt_wrap h2{font-size: 54px; line-height: 72px; color:#fff;font-family: 'Pacifico', cursive;}
+
+#header .main .dark .main_txt .txt_wrap p{font-size: 14px; color:#fff; line-height: 1; padding: 40px 0;}
+
+#header .main .dark .main_txt .txt_wrap ul{font-size:0;}
+#header .main .dark .main_txt .txt_wrap ul li{width: 202px; display: inline-block; padding: 0 10px;}
+#header .main .dark .main_txt .txt_wrap ul li a{font-size: 16px; line-height: 44px; color:#ff6600; display: block; border:1px solid #ff6600; border-radius: 8px;}
+
+#header .main .dark .main_txt .txt_wrap ul li:hover a{color:#ff6600; background-color: rgba(255,255,255,0.4);}
